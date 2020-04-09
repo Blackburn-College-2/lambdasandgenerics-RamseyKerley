@@ -37,7 +37,17 @@ public class Utils {
     and RETURNS a two line string where the first line is the index of each
     element.
      */
-   
+   public <K> void indexedOutput(ArrayList<K> arrayToOutput){
+       ArrayList output = new ArrayList();
+       for(int i = 0; i <= arrayToOutput.size(); i++){
+           System.out.println(i + " ");
+       }
+       for(int i = 0; i <= arrayToOutput.size(); i++){
+           System.out.println(arrayToOutput + " ");
+       }
+      
+       
+   }
 
     /*
     3. A few steps for this one. Similar to the modify integer functionality we

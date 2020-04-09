@@ -10,5 +10,5 @@ package explorationsoflambdasandgenerics;
  * @author Ramsey Kerley
  */
 public interface IntegerModifier {
-    
+    public Integer modify();
 }
