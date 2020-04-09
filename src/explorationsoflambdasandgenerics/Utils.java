@@ -14,12 +14,23 @@ import java.util.Random;
  */
 public class Utils {
 
+    public static void modifyIntegerXTimesTester() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /*
     1. write a static method like the one we did in class. call it "repeat" it
     should take 2 parameters, (1) an instance of any type and (2) an int of the
     number of times to repeat said element in an arraylist.
      */
-   
+   public static <T> ArrayList<T> repeat(T x,int times){
+       ArrayList<T> arr = new ArrayList();
+        for(int i=0; i<times; i++){
+            arr.add(x);
+        }
+        return arr;
+       
+   }
 
     /*
     2. Write a function called indexedOutput that takes an ArrayList of any type
@@ -78,6 +89,10 @@ public class Utils {
     Hint 2: You will need to create an interface for each arguement in
     checkInvolutence.
      */
+
+    public static void testInvolutence() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    
 
   
